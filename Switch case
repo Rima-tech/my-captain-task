@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Switch_case{
+public static void main(String args[])
+ {
+    int choice;
+    System.out.println("make your choice: 1. Tea\t 2. coffee\t 3. juice\t");
+    Scanner s = new Scanner(System.in);
+    choice = s.nextInt();
+    switch (choice)
+    {
+        case 1:
+            System.out.println("Your choice is tea");
+            break;
+        case 2:
+            System.out.println("Your choice is coffee");
+            break;
+        case 3:
+            System.out.println("Your choice is juice");
+            break;
+        default : System.out.println("Invalid choice!");
+
+    }
+ }
+
+}
